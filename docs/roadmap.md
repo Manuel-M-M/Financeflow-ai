@@ -157,14 +157,16 @@ Keep code, identifiers, comments, documentation, issues, PRs, and commits in Eng
 
 Testing grows with each vertical slice: deterministic financial tests, parser/adapter tests, IndexedDB integration tests, synthetic E2E journeys, and manual usability/accessibility reviews. Re-run the relevant checks when changed behavior warrants it; avoid coverage targets that reward implementation-mirroring tests.
 
-## Issue #1 review checklist
+## Issue #1 review record
 
-- [ ] The three English documents are coherent and reviewed against the approved product decisions.
-- [ ] Local-first MVP, initial institution targets, format/profile limits, expense attribution, and investment contribution treatment are explicit.
-- [ ] Financial rules and MVP-AC identifiers are verifiable, including uncertainty, duplicate safety, reconciliation, and recovery.
-- [ ] M0–M7 include dependencies, deliverables, risks, and exit criteria; M4 is the priority after stabilization.
-- [ ] Codex-assisted development is separated from product AI, and future technologies are not described as implemented.
-- [ ] Privacy limits, independent automated synthetic tests, mandatory owner-local real-format verification with non-sensitive evidence, pending ADRs, and excluded scope are explicit.
-- [ ] Only the three authorized documents have been added; no application code, dependencies, agent configurations, commits, pushes, or PRs are part of this task.
+Issue #1 was closed through PR #2. The checked items below record review of the planning documents, not completion of application features, tests, or release gates.
 
-The checklist remains subject to human review. Creating these documents does not close the GitHub issue or assert that its remote body has been inspected.
+- [x] The three English documents are coherent and reviewed against the approved product decisions.
+- [x] Local-first MVP, initial institution targets, format/profile limits, expense attribution, and investment contribution treatment are explicit.
+- [x] Financial rules and MVP-AC identifiers are verifiable, including uncertainty, duplicate safety, reconciliation, and recovery.
+- [x] M0–M7 include dependencies, deliverables, risks, and exit criteria; M4 is the priority after stabilization.
+- [x] Codex-assisted development is separated from product AI, and future technologies are not described as implemented.
+- [x] Privacy limits, independent automated synthetic tests, mandatory owner-local real-format verification with non-sensitive evidence, pending ADRs, and excluded scope are explicit.
+- [x] PR #2 added only the three planning documents; no application code, dependencies, agent configurations, workflows, or ADR files were introduced.
+
+Remaining M0 engineering setup and all application implementation, automated tests, owner-local profile verification, and M1–M7 delivery gates remain future work. Closing the planning issue does not satisfy those requirements. This status correction relies on the recorded merge and owner-confirmed issue closure; it does not assert a new audit of remote issue or review content.
