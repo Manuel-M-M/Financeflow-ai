@@ -147,3 +147,42 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Private workspace conventions (repository root; see README.md)
+/private-data/
+/personal-backups/
+/backups/
+/secrets/
+/.local/
+
+# Credentials and machine-specific configuration
+.npmrc
+.netrc
+_netrc
+.pypirc
+.aws/
+.azure/
+.config/gcloud/
+credentials.json
+credentials.*.json
+service-account*.json
+secrets.json
+secrets.*.json
+*.local.json
+*.local.yaml
+*.local.yml
+/.codex/config.local.toml
+
+# Private keys and credential stores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Do not ignore CSV/XLS/XLSX globally: synthetic fixtures must remain versionable.

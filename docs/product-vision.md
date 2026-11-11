@@ -2,7 +2,7 @@
 
 ## Status and purpose
 
-This document proposes the product direction for Issue #1 and remains pending final human approval while the issue is under review. It describes intended behavior, not capabilities already implemented. The repository currently has no application implementation. The MVP contract is defined in [MVP Scope](mvp-scope.md); sequencing, dependencies, and decision gates are defined in [Roadmap](roadmap.md).
+This document records the product direction reviewed through PR #2, which closed Issue #1. It describes intended behavior, not capabilities already implemented. The repository currently has no application implementation. The MVP contract is defined in [MVP Scope](mvp-scope.md); sequencing, dependencies, and decision gates are defined in [Roadmap](roadmap.md).
 
 ## Problem statement
 
